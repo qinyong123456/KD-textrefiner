@@ -2,8 +2,7 @@
 
 # custom config
 DATA='/kaggle/working/KD-textrefiner/datasets/data'
-TRAINER=PromptKD
-#TextRefiner
+TRAINER=TextRefiner
 # stanford_cars
 
 DATASET='caltech101' # 'imagenet' 'caltech101' 'dtd' 'eurosat' 'fgvc_aircraft' 'oxford_flowers' 'food101' 'oxford_pets', 'sun397' 'ucf101' 
