@@ -2,7 +2,7 @@
 
 # custom config
 DATA='/kaggle/working/KD-textrefiner/datasets/data'
-TRAINER=promptkd
+TRAINER=PromptKD
 #TextRefiner
 # stanford_cars
 
