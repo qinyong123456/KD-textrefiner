@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # custom config
-DATA=/path/to/data
+DATA='/kaggle/working/KD-textrefiner/datasets/data'
 TRAINER=TextRefiner
 
 # stanford_cars
 
-DATASET='imagenet' # 'imagenet' 'caltech101' 'dtd' 'eurosat' 'fgvc_aircraft' 'oxford_flowers' 'food101' 'oxford_pets', 'sun397' 'ucf101' 
+DATASET='caltech101' # 'imagenet' 'caltech101' 'dtd' 'eurosat' 'fgvc_aircraft' 'oxford_flowers' 'food101' 'oxford_pets', 'sun397' 'ucf101' 
 SEED=1
 
 CFG=vit_b16_c2_ep20_batch8_4+4ctx
